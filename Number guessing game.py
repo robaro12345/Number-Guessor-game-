@@ -19,3 +19,4 @@ while tries != 0:
   else:
     print(f"You got the number {guess}={number}")
     tries = 0 
+print(f"The number was {number}")
