@@ -13,6 +13,10 @@ while tries != 0:
   if guess != number:
     if guess >= number:
       print("Too High")
+    elif number - 10 <= guess and number > guess:
+      print("Low")
+    elif number + 10 >= guess and number < guess:
+      print("High")
     elif guess <= number:
       print("Too Low")
     tries -= 1
